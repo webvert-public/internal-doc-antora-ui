@@ -548,6 +548,7 @@ h1.page + aside.toc.embedded {
   background: var(--sidebar-background);
   border-radius: 0.75rem;
   padding: 0.75rem 1.5rem;
+  color: var(--sidebar-color);
 }
 
 .doc .sidebarblock > .content > .title {
