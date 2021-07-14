@@ -32,7 +32,6 @@
     }
   })
 
-
   // NOTE prevent text from being selected by double click
   menuPanel.addEventListener('mousedown', function (e) {
     if (e.detail > 1) e.preventDefault()
