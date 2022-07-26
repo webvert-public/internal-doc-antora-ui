@@ -74,9 +74,7 @@ h1.page + aside.toc.embedded {
 .doc h3 .anchor,
 .doc h4 .anchor,
 .doc h5 .anchor,
-.doc h6 .anchor,
-.doc h7 .anchor,
-.doc h8 .anchor{
+.doc h6 .anchor {
   position: absolute;
   text-decoration: none;
   width: 1.75ex;
@@ -824,30 +822,25 @@ h1.page + aside.toc.embedded {
   word-wrap: normal;
 }
 
-
 .doc h4,
 .doc h5,
 .doc h6 {
-  font-weight:bold;
+  font-weight: bold;
 }
-
 
 .doc h5,
 .doc h6 {
   font-size: 1em;
 }
 
-.doc h4
-{
+.doc h4 {
   padding-left: 1em;
 }
 
-.doc h5
-{
+.doc h5 {
   padding-left: 2em;
 }
 
-.doc h6
-{
+.doc h6 {
   padding-left: 3em;
 }
